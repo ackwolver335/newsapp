@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6c93f40f.css","mappings":"AAAA,WACI,cACJ,CAEA,UACI,iBACJ","sources":["App.css"],"sourcesContent":[".card-text{\n    font-size: 14px;\n}\n\n.mainHead{\n    margin-top: 4.5rem;\n}"],"names":[],"sourceRoot":""}
