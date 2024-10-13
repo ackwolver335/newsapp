@@ -1,0 +1,31 @@
+{
+    "background.backgroundOpacity": [
+        0.9,
+        0.9,
+        0.8,
+        0.9
+    ],
+    "background.windowBackgrounds": [],
+    "background.backgroundSize": [
+        "Contain",
+        "Cover",
+        "Cover",
+        "Manual"
+    ],
+    "background.sidebarBackgrounds": [
+        "\\"
+    ],
+    "background.panelBackgrounds": [],
+    "background.backgroundSizeValue": [
+        "100%",
+        "100%",
+        "100%",
+        "100%"
+    ],
+    "background.backgroundBlur": [
+        "0",
+        "0",
+        "0",
+        "0"
+    ]
+}
