@@ -38,13 +38,13 @@ const App = () =>{
         <Routes>
         
         {/* Adding further news item and some different components */}
-        <Route exact path = "/newsapp" element = {<News setProgress={setProgress} apiKey={apiKey} key = "general" pageSize={pageSize} country="us" category="general"/>} />
+        <Route exact path = "/" element = {<News setProgress={setProgress} apiKey={apiKey} key = "general" pageSize={pageSize} country="us" category="general"/>} />
 
         {/* Defining further subcategories here for different categories of news */}
-        <Route path = "/science" element = {<News setProgress={setProgress} apiKey={apiKey} key = "science" pageSize={pageSize} country="us" category="science"/>} />
-        <Route path = "/sports" element = {<News setProgress={setProgress} apiKey={apiKey} key = "sports" pageSize={pageSize} country="us" category="sports"/>} />
-        <Route path = "/business" element = {<News setProgress={setProgress} apiKey={apiKey} key = "business" pageSize={pageSize} country="us" category="business"/>} />
-        <Route path = "/health" element = {<News setProgress={setProgress} apiKey={apiKey} key = "health" pageSize={pageSize} country="us" category="health"/>} />
+        <Route exact path = "/science" element = {<News setProgress={setProgress} apiKey={apiKey} key = "science" pageSize={pageSize} country="us" category="science"/>} />
+        <Route exact path = "/sports" element = {<News setProgress={setProgress} apiKey={apiKey} key = "sports" pageSize={pageSize} country="us" category="sports"/>} />
+        <Route exact path = "/business" element = {<News setProgress={setProgress} apiKey={apiKey} key = "business" pageSize={pageSize} country="us" category="business"/>} />
+        <Route exact path = "/health" element = {<News setProgress={setProgress} apiKey={apiKey} key = "health" pageSize={pageSize} country="us" category="health"/>} />
 
         </Routes>
     </div>
