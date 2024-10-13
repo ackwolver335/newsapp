@@ -38,7 +38,7 @@ const App = () =>{
         <Routes>
         
         {/* Adding further news item and some different components */}
-        <Route exact path = "/" element = {<News setProgress={setProgress} apiKey={apiKey} key = "general" pageSize={pageSize} country="us" category="general"/>} />
+        <Route exact path = "/newsapp" element = {<News setProgress={setProgress} apiKey={apiKey} key = "general" pageSize={pageSize} country="us" category="general"/>} />
 
         {/* Defining further subcategories here for different categories of news */}
         <Route exact path = "/science" element = {<News setProgress={setProgress} apiKey={apiKey} key = "science" pageSize={pageSize} country="us" category="science"/>} />
