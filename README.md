@@ -1,4 +1,4 @@
-# 💠 React App - textUtils 🖥️
+# 💠 React App - newsApp 🖥️
 
 🖱️ React apps are constructed from reusable components, which are self-contained pieces of code that manage their own state and rendering logic. [React](https://react.dev/) lets you build user interfaces out of individual pieces called components. Create your own React components like `Thumbnail`, `LikeButton`, and `Video`. Then combine them into entire screens, pages, and apps.
 
